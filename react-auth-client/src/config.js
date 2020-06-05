@@ -5,7 +5,7 @@ export default {
   // Specifies the environment’s UUID.
   environmentId: process.env.REACT_APP_ENVIRONMENT_ID,
   // Specifies the code or token type returned by an authorization request. Options are token, id_token, and code. Default values is "token id_token". This is a required property.
-  responseType: "code token id_token",
+  responseType: "token id_token",
   // Specifies the application’s UUID.
   clientId: process.env.REACT_APP_CLIENT_ID,
   // Specifies the application’s secret key
