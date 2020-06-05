@@ -5,7 +5,7 @@ export default {
   // Specifies the environment’s UUID.
   environmentId: process.env.ENVIRONMENT_ID,
   // Specifies the code or token type returned by an authorization request. Options are token, id_token, and code. Default values is "token id_token". This is a required property.
-  responseType: "token id_token",
+  responseType: "code",
   // Specifies the application’s UUID.
   clientId: process.env.CLIENT_ID,
   // Specifies the application’s secret key
