@@ -3,13 +3,13 @@ export default {
    * Application authorization details. For more information check "Getting Started" in README.md
     */
   // Specifies the environment’s UUID.
-  environmentId: process.env.ENVIRONMENT_ID,
+  environmentId: process.env.REACT_APP_ENVIRONMENT_ID,
   // Specifies the code or token type returned by an authorization request. Options are token, id_token, and code. Default values is "token id_token". This is a required property.
   responseType: "code token id_token",
   // Specifies the application’s UUID.
-  clientId: process.env.CLIENT_ID,
+  clientId: process.env.REACT_APP_CLIENT_ID,
   // Specifies the application’s secret key
-  clientSecret: process.env.CLIENT_SECRET,
+  clientSecret: process.env.REACT_APP_CLIENT_SECRET,
   // Specifies the grant type of the token request. Options are authorization_code, implicit, and client_credentials
   grantType: "implicit",
   // Specifies the URL that specifies the return entry point of the application. This is a required property.
